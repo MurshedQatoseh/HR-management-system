@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    background-color: #A5C9CA;
+    padding: 10px 90px;
+}
+
+.header-logo img {
+    width: 50px
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    padding: 15px 0;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #2C3333;
+    vertical-align: middle;
+    
+}
+
+main{
+    background-color: #A5C9CA;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
